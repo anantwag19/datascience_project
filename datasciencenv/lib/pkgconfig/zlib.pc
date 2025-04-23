@@ -1,0 +1,13 @@
+prefix=/Users/anantwaghmare/Desktop/Udemy_AI/datascience_project/datasciencenv
+exec_prefix=/Users/anantwaghmare/Desktop/Udemy_AI/datascience_project/datasciencenv
+libdir=/Users/anantwaghmare/Desktop/Udemy_AI/datascience_project/datasciencenv/lib
+sharedlibdir=/Users/anantwaghmare/Desktop/Udemy_AI/datascience_project/datasciencenv/lib
+includedir=/Users/anantwaghmare/Desktop/Udemy_AI/datascience_project/datasciencenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

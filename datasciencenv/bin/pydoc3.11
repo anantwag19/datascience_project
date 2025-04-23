@@ -1,0 +1,5 @@
+#!/Users/anantwaghmare/Desktop/Udemy_AI/datascience_project/datasciencenv/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
